@@ -1,0 +1,32 @@
+
+.bars:hover {
+    fill: #5aada5;
+}
+#tooltip, #tooltip2 {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    padding: 10px;
+    background-color: #e0bcb0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    text-align: center;
+}
+
+#tooltip.hidden,
+#tooltip2.hidden {
+    display: none;
+}
+
+#tooltip p,
+#tooltip2 p {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}

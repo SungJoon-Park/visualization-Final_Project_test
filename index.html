@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Final Project - Bubble Chart</title>
+
+        <link rel="stylesheet" href="bubble_density_style.css">
+
+        <script defer src="https://d3js.org/d3.v6.min.js"></script>
+        <script defer src="main.js" type="module"></script>
+
+    </head>
+
+    <body>
+        <h1>Bubble</h1>
+        <div class="bubble">
+            <div id="tooltip2" class="hidden">
+                <p><strong>Movie: </strong></p>
+                <p id="title">t</p>
+                <p><strong><span>Genre: </span></strong></p>
+                <p id="genre">g</p>
+            </div>
+            <div id="toolbar">
+                <!-- <button id="All" class="button active">All</button> -->
+                <button id="Platform" class="button active">Netflix</button>
+                <button id="Genre" class="button">By Genres</button>
+            </div>
+        </div>
+        <div class="density">
+            <div id="tooltip" class="hidden">
+                <p><strong>Runtime</strong></p>
+                <p><span id="runtime">0</span></p>
+                <p><strong><span>Count</span></strong></p>
+                <p><span id="count">0</span></p>
+            </div>
+        </div>
+
+
+    </body>
+
+</html>
